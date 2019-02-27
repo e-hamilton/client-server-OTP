@@ -1,0 +1,11 @@
+#!/bin/bash
+
+gcc -std=c99 keygen.c -o keygen
+
+gcc -std=c99 otp_enc_d.c encryption.c utilities.c -o otp_enc_d
+
+gcc -std=c99 otp_enc.c encryption.c utilities.c -o otp_enc
+
+gcc -std=c99 otp_dec_d.c encryption.c utilities.c -o otp_dec_d
+
+gcc -std=c99 otp_dec.c encryption.c utilities.c -o otp_dec 
