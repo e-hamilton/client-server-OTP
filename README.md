@@ -68,7 +68,7 @@ The daemon can handle concurrent connections.
 
 Usage:
 ```
-$ otp_enc [ciphertext file] [key file] [port B] > [result file]
+$ otp_dec [ciphertext file] [key file] [port B] > [result file]
 ```
 
 This starts the encryption client as a foreground process and redirects the output to a file. The client sends the contents of the ciphertext file and key file to the daemon at the specified port. The daemon returns the decrypted message, which the client prints to stdout.
