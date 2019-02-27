@@ -1,4 +1,4 @@
-### OTP - One-Time Pad Encryption
+# OTP - One-Time Pad Encryption
 
 ## About this Project
 This was an assignment for CS344 - Operating Systems I at Oregon State University. I did not come up with the idea for this project or write the specifications; I only wrote the code to execute it.
