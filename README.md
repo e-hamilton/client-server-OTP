@@ -56,7 +56,7 @@ This starts the encryption client as a foreground process and redirects the outp
 
 Usage:
 ```
-$ opt_dec_d [port B] &
+$ otp_dec_d [port B] &
 ```
 This starts the decryption daemon as a background process listening on [port B].
 
